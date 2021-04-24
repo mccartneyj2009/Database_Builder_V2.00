@@ -1,0 +1,1203 @@
+INFO - ***************Points creation started for site Test Site. April 23, 2021 - 16:18:00***************
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create AI1101 ,Outside Air Temperature
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create AI1102 ,Return Air Humidity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create AI1201 ,HW System Differentail Pressure
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create AI1202 ,Return Air CO2
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create AO1201 ,Heating Coil Valve Signal
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create AO1202 ,Cooling Coil Valve Signal
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create BI1103 ,Supply Fan Run Status
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create BO1101 ,Supply Fan VFD Command
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create BO1102 ,Cooling Stage 1 Command
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Failed to create BO1103 ,Cooling Stage 2 Command
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - ----------AHU System Variables selected----------
+INFO - Failed to create AV1,'Outside Air Temperature Transfer','°F'
+INFO - Failed to create AV2,'Outside Air Humidity Transfer','%RH'
+INFO - Failed to create AV3,'Outside Air Wetbulb Temperature Transfer','°F'
+INFO - Failed to create AV4,'Outside Air CO2 Transfer','ppm'
+INFO - Failed to create AV5,'Outside Air Enthalpy Transfer','BTU/lb'
+INFO - Failed to create AV6,'Return Air Enthalpy','BTU/lb'
+INFO - Failed to create AV21,'Supply Duct Static Pressure Setpoint','inWC'
+INFO - Failed to create AV22,'Supply Discharge High Limit Static Pressure Setpoint','inWC'
+INFO - Failed to create AV23,'Return Fan CFM Setpoint','CFM'
+INFO - Failed to create AV24,'Return Plenum Static Pressure Low Limit Setpoint','inWC'
+INFO - Failed to create AV25,'Building Static Pressure Setpoint','inWC'
+INFO - Failed to create AV26,'Mixed Air Plenum Static Pressure Low Limit Setpoint','inWC'
+INFO - Failed to create AV31,'Supply Air Heating Setpoint','°F'
+INFO - Failed to create AV32,'Supply Air Cooling Setpoint','°F'
+INFO - Failed to create AV33,'Return Air Temperature Setpoint','°F'
+INFO - Failed to create AV34,'Preheat Air Temperature Setpoint','°F'
+INFO - Failed to create AV35,'Mixed Air Temperature Setpoint','°F'
+INFO - Failed to create AV36,'Mixed Air Low Limit Temperature Setpoint','°F'
+INFO - Failed to create AV37,'Economizer Enable Setpoint','°F'
+INFO - Failed to create AV41,'Humidifier Enable Setpoint','%RH'
+INFO - Failed to create AV42,'Return Air Humidity Setpoint','%RH'
+INFO - Failed to create AV43,'Space Humidity Setpoint','%RH'
+INFO - Failed to create AV44,'Humidity High Limit Setpoint','%RH'
+INFO - Failed to create AV45,'Dehumidification Setpoint','%RH'
+INFO - Failed to create AV46,'Unoccupied Dehumidification Setpoint','%RH'
+INFO - Failed to create AV51,'Minimum Outside Air CFM Setpoint','CFM'
+INFO - Failed to create AV52,'Maximum Outside Air CFM Setpoint (CO2)','CFM'
+INFO - Failed to create AV53,'Minimum Outside Air CFM Setpoint (CO2)','CFM'
+INFO - Failed to create AV54,'Demand Ventilation CO2 Setpoint','ppm'
+INFO - Failed to create AV61,'Occupied Space Temperature Setpoint','°F'
+INFO - Failed to create AV62,'Active Space Heating Setpoint','°F'
+INFO - Failed to create AV63,'Active Space Cooling Setpoint','°F'
+INFO - Failed to create AV64,'Occupied Space Temperature Setpoint Deadband','°F'
+INFO - Failed to create AV71,'Unoccupied Heating Setpoint','°F'
+INFO - Failed to create AV72,'Unoccupied Cooling Setpoint','°F'
+INFO - Failed to create AV73,'Unoccupied Space Temperature Setpoint Deadband','°F'
+INFO - Failed to create AV77,'Average Space Temperature','°F'
+INFO - Failed to create AV78,'Lowest Space Temperature','°F'
+INFO - Failed to create AV79,'Highest Space Temperature','°F'
+INFO - Failed to create AV81,'Hot Water Runaround Pump Enable Setpoint','°F'
+INFO - Failed to create AV91,'Supply VFD Control Ramp','%'
+INFO - Failed to create AV92,'Return VFD Control Ramp','%'
+INFO - Failed to create AV93,'Damper Control Ramp','%'
+INFO - Failed to create AV94,'Valve Control Ramp','%'
+INFO - Failed to create AV95,'Fan Control Ramp','%'
+INFO - Failed to create AV96,'Humidifier Control Ramp','%'
+INFO - Failed to create BV1,'AHU Enable','BDC7'
+INFO - Failed to create BV2, 'AHU Fan Request', 'BDC5'
+INFO - Failed to create BV3, 'Afterhours Override', 'BDC5'
+INFO - Failed to create BV11, 'Hot Water Available', 'BDC5'
+INFO - Failed to create BV21, 'Mechanical Cooling Available', 'BDC5'
+INFO - Failed to create BV31, 'Economizer Mode Enable', 'BDC5'
+INFO - Failed to create BV32, 'CO2 Demand Ventilation Mode Enable', 'BDC5'
+INFO - Failed to create BV41, 'Humidifier Enable', 'BDC5'
+INFO - Failed to create BV42, 'Dehumidification Enable', 'BDC5'
+INFO - Failed to create BV51, 'Supply Fans Operational Status', 'BDC5'
+INFO - Failed to create BV52, 'Return Fans Operational Status', 'BDC5'
+INFO - Failed to create MIC'Controller Modes', 'MIC21'
+INFO - Failed to create MIC'Controller Status', 'MIC22'
+INFO - Failed to create MV1, 'AHU Mode', 'MIC21'
+INFO - Failed to create MV2, 'AHU Status', 'MIC22'
+INFO - ***************Points Query for site: Test Site April 23, 2021 - 16:19:00***************
+INFO - 	Device: 100
+	Point Instance: AI1101
+	Point Name: Outside Air Temperature
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1102
+	Point Name: Return Air Humidity
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1201
+	Point Name: HW System Differentail Pressure
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1202
+	Point Name: Return Air CO2
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AO1201
+	Point Name: Heating Coil Valve Signal
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AO1202
+	Point Name: Cooling Coil Valve Signal
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BI1103
+	Point Name: Supply Fan Run Status
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1101
+	Point Name: Supply Fan VFD Command
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1102
+	Point Name: Cooling Stage 1 Command
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1103
+	Point Name: Cooling Stage 2 Command
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV1
+	Point Name: Outside Air Temperature Transfer
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV2
+	Point Name: Outside Air Humidity Transfer
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV3
+	Point Name: Outside Air Wetbulb Temperature Transfer
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV4
+	Point Name: Outside Air CO2 Transfer
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV5
+	Point Name: Outside Air Enthalpy Transfer
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV6
+	Point Name: Return Air Enthalpy
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV21
+	Point Name: Supply Duct Static Pressure Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV22
+	Point Name: Supply Discharge High Limit Static Pressure Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV23
+	Point Name: Return Fan CFM Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV24
+	Point Name: Return Plenum Static Pressure Low Limit Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV25
+	Point Name: Building Static Pressure Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV26
+	Point Name: Mixed Air Plenum Static Pressure Low Limit Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV31
+	Point Name: Supply Air Heating Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV32
+	Point Name: Supply Air Cooling Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV33
+	Point Name: Return Air Temperature Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV34
+	Point Name: Preheat Air Temperature Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV35
+	Point Name: Mixed Air Temperature Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV36
+	Point Name: Mixed Air Low Limit Temperature Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV37
+	Point Name: Economizer Enable Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV41
+	Point Name: Humidifier Enable Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV42
+	Point Name: Return Air Humidity Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV43
+	Point Name: Space Humidity Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV44
+	Point Name: Humidity High Limit Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV45
+	Point Name: Dehumidification Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV46
+	Point Name: Unoccupied Dehumidification Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV51
+	Point Name: Minimum Outside Air CFM Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV52
+	Point Name: Maximum Outside Air CFM Setpoint (CO2)
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV53
+	Point Name: Minimum Outside Air CFM Setpoint (CO2)
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV54
+	Point Name: Demand Ventilation CO2 Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV61
+	Point Name: Occupied Space Temperature Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV62
+	Point Name: Active Space Heating Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV63
+	Point Name: Active Space Cooling Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV64
+	Point Name: Occupied Space Temperature Setpoint Deadband
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV71
+	Point Name: Unoccupied Heating Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV72
+	Point Name: Unoccupied Cooling Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV73
+	Point Name: Unoccupied Space Temperature Setpoint Deadband
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV77
+	Point Name: Average Space Temperature
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV78
+	Point Name: Lowest Space Temperature
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV79
+	Point Name: Highest Space Temperature
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV81
+	Point Name: Hot Water Runaround Pump Enable Setpoint
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV91
+	Point Name: Supply VFD Control Ramp
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV92
+	Point Name: Return VFD Control Ramp
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV93
+	Point Name: Damper Control Ramp
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV94
+	Point Name: Valve Control Ramp
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV95
+	Point Name: Fan Control Ramp
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AV96
+	Point Name: Humidifier Control Ramp
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV1
+	Point Name: AHU Enable
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV2
+	Point Name: AHU Fan Request
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV3
+	Point Name: Afterhours Override
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV11
+	Point Name: Hot Water Available
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV21
+	Point Name: Mechanical Cooling Available
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV31
+	Point Name: Economizer Mode Enable
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV32
+	Point Name: CO2 Demand Ventilation Mode Enable
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV41
+	Point Name: Humidifier Enable
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV42
+	Point Name: Dehumidification Enable
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV51
+	Point Name: Supply Fans Operational Status
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BV52
+	Point Name: Return Fans Operational Status
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC1
+	Point Name: Battery AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC2
+	Point Name: Belimo Position Feedback 0-100% AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC3
+	Point Name: CO 4-20mA 0-200 ppm AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC4
+	Point Name: CO2 4-20mA 0-2000 ppm AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC5
+	Point Name: Current 0-5V 0-10 A AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC6
+	Point Name: Current 0-5V 0-120 A AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC7
+	Point Name: Current 0-5V 0-30 A AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC8
+	Point Name: Current 0-5V 0-50 A AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC9
+	Point Name: Current 0-5V 0-60 A AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC10
+	Point Name: Humidity 4-20mA 0-100 %RH AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC11
+	Point Name: Pressure 4-20mA -0.1-0.1 inH20 AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC12
+	Point Name: Pressure 4-20mA -0.5-0.5 inH20 AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC13
+	Point Name: Pressure 4-20mA 0-1.0 inH20 AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC14
+	Point Name: Pressure 4-20mA 0-100 psi AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC15
+	Point Name: Pressure 4-20mA 0-1250 Pa AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC16
+	Point Name: Pressure 4-20mA 0-2.0 inH20 AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC17
+	Point Name: Pressure 4-20mA 0-250 Pa AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC18
+	Point Name: Pressure 4-20mA 0-5.0 inH20 AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC19
+	Point Name: Pressure 4-20mA 0-500 Pa AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC20
+	Point Name: Pressure 4-20mA -1.0-1.0 inH20 AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC21
+	Point Name: Pressure 4-20mA -250-250 Pa AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC22
+	Point Name: Temperature 10K -35-240 degF AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC23
+	Point Name: Temperature 10K -40-150 degC AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC24
+	Point Name: DNS-H24L Humidity AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC25
+	Point Name: eBUS 24VAC Power AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC26
+	Point Name: eBUS 24VDC Power AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC27
+	Point Name: eBUS eBM Power Monitoring AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AIC28
+	Point Name: eBUS DCE Temp AIC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AOC1
+	Point Name: Actuator 2-10V AOC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC1
+	Point Name: Unlock/Lock BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC2
+	Point Name: Trouble/Normal BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC3
+	Point Name: Open/Closed BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC4
+	Point Name: Request To Exit/Normal BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC5
+	Point Name: On/Off BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC6
+	Point Name: Closed/Open BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC7
+	Point Name: Enabled/Disabled BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC8
+	Point Name: Fire/Off BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC9
+	Point Name: Heating/Cooling BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC10
+	Point Name: Lead/Lag BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC11
+	Point Name: On/Standby BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC12
+	Point Name: Stop/Start BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC13
+	Point Name: Start/Stop BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC14
+	Point Name: Summer/Winter BDC
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BDC15
+	Point Name: Tripped/OK BDC
+	Site: Test Site
+******************************
+INFO - ***************Points creation started for site Test Site. April 23, 2021 - 16:19:58***************
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create AI1101 ,Outside Air Temperature
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create AI1102 ,Return Air Humidity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create AI1201 ,HW System Differentail Pressure
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create AI1202 ,Return Air CO2
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create AO1201 ,Heating Coil Valve Signal
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create AO1202 ,Cooling Coil Valve Signal
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create BI1103 ,Supply Fan Run Status
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create BO1101 ,Supply Fan VFD Command
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create BO1102 ,Cooling Stage 1 Command
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Failed to create BO1103 ,Cooling Stage 2 Command
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO - ----------AHU System Variables selected----------
+INFO - Failed to create AV1,'Outside Air Temperature Transfer','°F'
+INFO - Failed to create AV2,'Outside Air Humidity Transfer','%RH'
+INFO - Failed to create AV3,'Outside Air Wetbulb Temperature Transfer','°F'
+INFO - Failed to create AV4,'Outside Air CO2 Transfer','ppm'
+INFO - Failed to create AV5,'Outside Air Enthalpy Transfer','BTU/lb'
+INFO - Failed to create AV6,'Return Air Enthalpy','BTU/lb'
+INFO - Failed to create AV21,'Supply Duct Static Pressure Setpoint','inWC'
+INFO - Failed to create AV22,'Supply Discharge High Limit Static Pressure Setpoint','inWC'
+INFO - Failed to create AV23,'Return Fan CFM Setpoint','CFM'
+INFO - Failed to create AV24,'Return Plenum Static Pressure Low Limit Setpoint','inWC'
+INFO - Failed to create AV25,'Building Static Pressure Setpoint','inWC'
+INFO - Failed to create AV26,'Mixed Air Plenum Static Pressure Low Limit Setpoint','inWC'
+INFO - Failed to create AV31,'Supply Air Heating Setpoint','°F'
+INFO - Failed to create AV32,'Supply Air Cooling Setpoint','°F'
+INFO - Failed to create AV33,'Return Air Temperature Setpoint','°F'
+INFO - Failed to create AV34,'Preheat Air Temperature Setpoint','°F'
+INFO - Failed to create AV35,'Mixed Air Temperature Setpoint','°F'
+INFO - Failed to create AV36,'Mixed Air Low Limit Temperature Setpoint','°F'
+INFO - Failed to create AV37,'Economizer Enable Setpoint','°F'
+INFO - Failed to create AV41,'Humidifier Enable Setpoint','%RH'
+INFO - Failed to create AV42,'Return Air Humidity Setpoint','%RH'
+INFO - Failed to create AV43,'Space Humidity Setpoint','%RH'
+INFO - Failed to create AV44,'Humidity High Limit Setpoint','%RH'
+INFO - Failed to create AV45,'Dehumidification Setpoint','%RH'
+INFO - Failed to create AV46,'Unoccupied Dehumidification Setpoint','%RH'
+INFO - Failed to create AV51,'Minimum Outside Air CFM Setpoint','CFM'
+INFO - Failed to create AV52,'Maximum Outside Air CFM Setpoint (CO2)','CFM'
+INFO - Failed to create AV53,'Minimum Outside Air CFM Setpoint (CO2)','CFM'
+INFO - Failed to create AV54,'Demand Ventilation CO2 Setpoint','ppm'
+INFO - Failed to create AV61,'Occupied Space Temperature Setpoint','°F'
+INFO - Failed to create AV62,'Active Space Heating Setpoint','°F'
+INFO - Failed to create AV63,'Active Space Cooling Setpoint','°F'
+INFO - Failed to create AV64,'Occupied Space Temperature Setpoint Deadband','°F'
+INFO - Failed to create AV71,'Unoccupied Heating Setpoint','°F'
+INFO - Failed to create AV72,'Unoccupied Cooling Setpoint','°F'
+INFO - Failed to create AV73,'Unoccupied Space Temperature Setpoint Deadband','°F'
+INFO - Failed to create AV77,'Average Space Temperature','°F'
+INFO - Failed to create AV78,'Lowest Space Temperature','°F'
+INFO - Failed to create AV79,'Highest Space Temperature','°F'
+INFO - Failed to create AV81,'Hot Water Runaround Pump Enable Setpoint','°F'
+INFO - Failed to create AV91,'Supply VFD Control Ramp','%'
+INFO - Failed to create AV92,'Return VFD Control Ramp','%'
+INFO - Failed to create AV93,'Damper Control Ramp','%'
+INFO - Failed to create AV94,'Valve Control Ramp','%'
+INFO - Failed to create AV95,'Fan Control Ramp','%'
+INFO - Failed to create AV96,'Humidifier Control Ramp','%'
+INFO - Failed to create BV1,'AHU Enable','BDC7'
+INFO - Failed to create BV2, 'AHU Fan Request', 'BDC5'
+INFO - Failed to create BV3, 'Afterhours Override', 'BDC5'
+INFO - Failed to create BV11, 'Hot Water Available', 'BDC5'
+INFO - Failed to create BV21, 'Mechanical Cooling Available', 'BDC5'
+INFO - Failed to create BV31, 'Economizer Mode Enable', 'BDC5'
+INFO - Failed to create BV32, 'CO2 Demand Ventilation Mode Enable', 'BDC5'
+INFO - Failed to create BV41, 'Humidifier Enable', 'BDC5'
+INFO - Failed to create BV42, 'Dehumidification Enable', 'BDC5'
+INFO - Failed to create BV51, 'Supply Fans Operational Status', 'BDC5'
+INFO - Failed to create BV52, 'Return Fans Operational Status', 'BDC5'
+INFO - Failed to create MIC'Controller Modes', 'MIC21'
+INFO - Failed to create MIC'Controller Status', 'MIC22'
+INFO - Failed to create MV1, 'AHU Mode', 'MIC21'
+INFO - Failed to create MV2, 'AHU Status', 'MIC22'
+INFO - ***************Points creation started for site Test Site. April 23, 2021 - 16:23:47***************
+INFO - 
+	!!!!!Failed to create AI1101 ,Outside Air Temperature!!!!!
+INFO - 
+	!!!!!Failed to create AI1102 ,Return Air Humidity!!!!!
+INFO - 
+	!!!!!Failed to create AI1201 ,HW System Differentail Pressure!!!!!
+INFO - 
+	!!!!!Failed to create AI1202 ,Return Air CO2!!!!!
+INFO - 
+	!!!!!Failed to create AO1201 ,Heating Coil Valve Signal!!!!!
+INFO - 
+	!!!!!Failed to create AO1202 ,Cooling Coil Valve Signal!!!!!
+INFO - 
+	!!!!!Failed to create BI1103 ,Supply Fan Run Status!!!!!
+INFO - 
+	!!!!!Failed to create BO1101 ,Supply Fan VFD Command!!!!!
+INFO - 
+	!!!!!Failed to create BO1102 ,Cooling Stage 1 Command!!!!!
+INFO - 
+	!!!!!Failed to create BO1103 ,Cooling Stage 2 Command!!!!!
+INFO - ----------AHU System Variables selected----------
+INFO - !!!!!Failed to create AV1,'Outside Air Temperature Transfer','°F'!!!!!
+INFO - !!!!!Failed to create AV2,'Outside Air Humidity Transfer','%RH'!!!!!
+INFO - !!!!!Failed to create AV3,'Outside Air Wetbulb Temperature Transfer','°F'!!!!!
+INFO - !!!!!Failed to create AV4,'Outside Air CO2 Transfer','ppm'!!!!!
+INFO - !!!!!Failed to create AV5,'Outside Air Enthalpy Transfer','BTU/lb'!!!!!
+INFO - !!!!!Failed to create AV6,'Return Air Enthalpy','BTU/lb'!!!!!
+INFO - !!!!!Failed to create AV21,'Supply Duct Static Pressure Setpoint','inWC'!!!!!
+INFO - !!!!!Failed to create AV22,'Supply Discharge High Limit Static Pressure Setpoint','inWC'!!!!!
+INFO - !!!!!Failed to create AV23,'Return Fan CFM Setpoint','CFM'!!!!!
+INFO - !!!!!Failed to create AV24,'Return Plenum Static Pressure Low Limit Setpoint','inWC'!!!!!
+INFO - !!!!!Failed to create AV25,'Building Static Pressure Setpoint','inWC'!!!!!
+INFO - !!!!!Failed to create AV26,'Mixed Air Plenum Static Pressure Low Limit Setpoint','inWC'!!!!!
+INFO - !!!!!Failed to create AV31,'Supply Air Heating Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV32,'Supply Air Cooling Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV33,'Return Air Temperature Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV34,'Preheat Air Temperature Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV35,'Mixed Air Temperature Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV36,'Mixed Air Low Limit Temperature Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV37,'Economizer Enable Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV41,'Humidifier Enable Setpoint','%RH'!!!!!
+INFO - !!!!!Failed to create AV42,'Return Air Humidity Setpoint','%RH'!!!!!
+INFO - !!!!!Failed to create AV43,'Space Humidity Setpoint','%RH'!!!!!
+INFO - !!!!!Failed to create AV44,'Humidity High Limit Setpoint','%RH'!!!!!
+INFO - !!!!!Failed to create AV45,'Dehumidification Setpoint','%RH'!!!!!
+INFO - !!!!!Failed to create AV46,'Unoccupied Dehumidification Setpoint','%RH'!!!!!
+INFO - !!!!!Failed to create AV51,'Minimum Outside Air CFM Setpoint','CFM'!!!!!
+INFO - !!!!!Failed to create AV52,'Maximum Outside Air CFM Setpoint (CO2)','CFM'!!!!!
+INFO - !!!!!Failed to create AV53,'Minimum Outside Air CFM Setpoint (CO2)','CFM'!!!!!
+INFO - !!!!!Failed to create AV54,'Demand Ventilation CO2 Setpoint','ppm'!!!!!
+INFO - !!!!!Failed to create AV61,'Occupied Space Temperature Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV62,'Active Space Heating Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV63,'Active Space Cooling Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV64,'Occupied Space Temperature Setpoint Deadband','°F'!!!!!
+INFO - !!!!!Failed to create AV71,'Unoccupied Heating Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV72,'Unoccupied Cooling Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV73,'Unoccupied Space Temperature Setpoint Deadband','°F'!!!!!
+INFO - !!!!!Failed to create AV77,'Average Space Temperature','°F'!!!!!
+INFO - !!!!!Failed to create AV78,'Lowest Space Temperature','°F'!!!!!
+INFO - !!!!!Failed to create AV79,'Highest Space Temperature','°F'!!!!!
+INFO - !!!!!Failed to create AV81,'Hot Water Runaround Pump Enable Setpoint','°F'!!!!!
+INFO - !!!!!Failed to create AV91,'Supply VFD Control Ramp','%'!!!!!
+INFO - !!!!!Failed to create AV92,'Return VFD Control Ramp','%'!!!!!
+INFO - !!!!!Failed to create AV93,'Damper Control Ramp','%'!!!!!
+INFO - !!!!!Failed to create AV94,'Valve Control Ramp','%'!!!!!
+INFO - !!!!!Failed to create AV95,'Fan Control Ramp','%'!!!!!
+INFO - !!!!!Failed to create AV96,'Humidifier Control Ramp','%'!!!!!
+INFO - !!!!!Failed to create BV1,'AHU Enable','BDC7'!!!!!
+INFO - !!!!!Failed to create BV2, 'AHU Fan Request', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV3, 'Afterhours Override', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV11, 'Hot Water Available', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV21, 'Mechanical Cooling Available', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV31, 'Economizer Mode Enable', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV32, 'CO2 Demand Ventilation Mode Enable', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV41, 'Humidifier Enable', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV42, 'Dehumidification Enable', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV51, 'Supply Fans Operational Status', 'BDC5'!!!!!
+INFO - !!!!!Failed to create BV52, 'Return Fans Operational Status', 'BDC5'!!!!!
+INFO - !!!!!Failed to create MIC'Controller Modes', 'MIC21'!!!!!
+INFO - !!!!!Failed to create MIC'Controller Status', 'MIC22'!!!!!
+INFO - !!!!!Failed to create MV1, 'AHU Mode', 'MIC21'!!!!!
+INFO - !!!!!Failed to create MV2, 'AHU Status', 'MIC22'!!!!!
+INFO - ***************Points creation started for site Test Site. April 23, 2021 - 16:24:43***************
+INFO - 	Device: 100
+	Point Instance: AI1101
+	Point Name: Outside Air Temperature
+	Type Reference: AIC22
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1102
+	Point Name: Return Air Humidity
+	Type Reference: AIC10
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1201
+	Point Name: HW System Differentail Pressure
+	Type Reference: AIC14
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1202
+	Point Name: Return Air CO2
+	Type Reference: AIC4
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AO1201
+	Point Name: Heating Coil Valve Signal
+	Type Reference: AOC1
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AO1202
+	Point Name: Cooling Coil Valve Signal
+	Type Reference: AOC1
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BI1103
+	Point Name: Supply Fan Run Status
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1101
+	Point Name: Supply Fan VFD Command
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1102
+	Point Name: Cooling Stage 1 Command
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1103
+	Point Name: Cooling Stage 2 Command
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - ----------AHU System Variables selected----------
+INFO - 100, AV1,'Outside Air Temperature Transfer','°F'
+INFO - 100, AV2,'Outside Air Humidity Transfer','%RH'
+INFO - 100, AV3,'Outside Air Wetbulb Temperature Transfer','°F'
+INFO - 100, AV4,'Outside Air CO2 Transfer','ppm'
+INFO - 100, AV5,'Outside Air Enthalpy Transfer','BTU/lb'
+INFO - 100, AV6,'Return Air Enthalpy','BTU/lb'
+INFO - 100, AV21,'Supply Duct Static Pressure Setpoint','inWC'
+INFO - 100, AV22,'Supply Discharge High Limit Static Pressure Setpoint','inWC'
+INFO - 100, AV23,'Return Fan CFM Setpoint','CFM'
+INFO - 100, AV24,'Return Plenum Static Pressure Low Limit Setpoint','inWC'
+INFO - 100, AV25,'Building Static Pressure Setpoint','inWC'
+INFO - 100, AV26,'Mixed Air Plenum Static Pressure Low Limit Setpoint','inWC'
+INFO - 100, AV31,'Supply Air Heating Setpoint','°F'
+INFO - 100, AV32,'Supply Air Cooling Setpoint','°F'
+INFO - 100, AV33,'Return Air Temperature Setpoint','°F'
+INFO - 100, AV34,'Preheat Air Temperature Setpoint','°F'
+INFO - 100, AV35,'Mixed Air Temperature Setpoint','°F'
+INFO - 100, AV36,'Mixed Air Low Limit Temperature Setpoint','°F'
+INFO - 100, AV37,'Economizer Enable Setpoint','°F'
+INFO - 100, AV41,'Humidifier Enable Setpoint','%RH'
+INFO - 100, AV42,'Return Air Humidity Setpoint','%RH'
+INFO - 100, AV43,'Space Humidity Setpoint','%RH'
+INFO - 100, AV44,'Humidity High Limit Setpoint','%RH'
+INFO - 100, AV45,'Dehumidification Setpoint','%RH'
+INFO - 100, AV46,'Unoccupied Dehumidification Setpoint','%RH'
+INFO - 100, AV51,'Minimum Outside Air CFM Setpoint','CFM'
+INFO - 100, AV52,'Maximum Outside Air CFM Setpoint (CO2)','CFM'
+INFO - 100, AV53,'Minimum Outside Air CFM Setpoint (CO2)','CFM'
+INFO - 100, AV54,'Demand Ventilation CO2 Setpoint','ppm'
+INFO - 100, AV61,'Occupied Space Temperature Setpoint','°F'
+INFO - 100, AV62,'Active Space Heating Setpoint','°F'
+INFO - 100, AV63,'Active Space Cooling Setpoint','°F'
+INFO - 100, AV64,'Occupied Space Temperature Setpoint Deadband','°F'
+INFO - 100, AV71,'Unoccupied Heating Setpoint','°F'
+INFO - 100, AV72,'Unoccupied Cooling Setpoint','°F'
+INFO - 100, AV73,'Unoccupied Space Temperature Setpoint Deadband','°F'
+INFO - 100, AV77,'Average Space Temperature','°F'
+INFO - 100, AV78,'Lowest Space Temperature','°F'
+INFO - 100, AV79,'Highest Space Temperature','°F'
+INFO - 100, AV81,'Hot Water Runaround Pump Enable Setpoint','°F'
+INFO - 100, AV91,'Supply VFD Control Ramp','%'
+INFO - 100, AV92,'Return VFD Control Ramp','%'
+INFO - 100, AV93,'Damper Control Ramp','%'
+INFO - 100, AV94,'Valve Control Ramp','%'
+INFO - 100, AV95,'Fan Control Ramp','%'
+INFO - 100, AV96,'Humidifier Control Ramp','%'
+INFO - 100, BV1,'AHU Enable','BDC7'
+INFO - 100, BV2, 'AHU Fan Request', 'BDC5'
+INFO - 100, BV3, 'Afterhours Override', 'BDC5'
+INFO - 100, BV11, 'Hot Water Available', 'BDC5'
+INFO - 100, BV21, 'Mechanical Cooling Available', 'BDC5'
+INFO - 100, BV31, 'Economizer Mode Enable', 'BDC5'
+INFO - 100, BV32, 'CO2 Demand Ventilation Mode Enable', 'BDC5'
+INFO - 100, BV41, 'Humidifier Enable', 'BDC5'
+INFO - 100, BV42, 'Dehumidification Enable', 'BDC5'
+INFO - 100, BV51, 'Supply Fans Operational Status', 'BDC5'
+INFO - 100, BV52, 'Return Fans Operational Status', 'BDC5'
+INFO - 100, MIC'Controller Modes', 'MIC21'
+INFO - 100, MIC'Controller Status', 'MIC22'
+INFO - 100, MV1, 'AHU Mode', 'MIC21'
+INFO - 100, MV2, 'AHU Status', 'MIC22'
+INFO - ***************Points creation started for site Test Site. April 23, 2021 - 16:28:55***************
+INFO - 	Device: 100
+	Point Instance: AI1101
+	Point Name: Outside Air Temperature
+	Type Reference: AIC22
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1102
+	Point Name: Return Air Humidity
+	Type Reference: AIC10
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1201
+	Point Name: HW System Differentail Pressure
+	Type Reference: AIC14
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AI1202
+	Point Name: Return Air CO2
+	Type Reference: AIC4
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AO1201
+	Point Name: Heating Coil Valve Signal
+	Type Reference: AOC1
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: AO1202
+	Point Name: Cooling Coil Valve Signal
+	Type Reference: AOC1
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BI1103
+	Point Name: Supply Fan Run Status
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1101
+	Point Name: Supply Fan VFD Command
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1102
+	Point Name: Cooling Stage 1 Command
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - 	Device: 100
+	Point Instance: BO1103
+	Point Name: Cooling Stage 2 Command
+	Type Reference: BDC5
+	Site: Test Site
+******************************
+INFO - ----------AHU System Variables selected----------
+INFO - Created Successfully
+	100, AV1,'Outside Air Temperature Transfer','°F'
+
+INFO - Created Successfully
+	100, AV2,'Outside Air Humidity Transfer','%RH'
+
+INFO - Created Successfully
+	100, AV3,'Outside Air Wetbulb Temperature Transfer','°F'
+
+INFO - Created Successfully
+	100, AV4,'Outside Air CO2 Transfer','ppm'
+
+INFO - Created Successfully
+	100, AV5,'Outside Air Enthalpy Transfer','BTU/lb'
+
+INFO - Created Successfully
+	100, AV6,'Return Air Enthalpy','BTU/lb'
+
+INFO - Created Successfully
+	100, AV21,'Supply Duct Static Pressure Setpoint','inWC'
+
+INFO - Created Successfully
+	100, AV22,'Supply Discharge High Limit Static Pressure Setpoint','inWC'
+
+INFO - Created Successfully
+	100, AV23,'Return Fan CFM Setpoint','CFM'
+
+INFO - Created Successfully
+	100, AV24,'Return Plenum Static Pressure Low Limit Setpoint','inWC'
+
+INFO - Created Successfully
+	100, AV25,'Building Static Pressure Setpoint','inWC'
+
+INFO - Created Successfully
+	100, AV26,'Mixed Air Plenum Static Pressure Low Limit Setpoint','inWC'
+
+INFO - Created Successfully
+	100, AV31,'Supply Air Heating Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV32,'Supply Air Cooling Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV33,'Return Air Temperature Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV34,'Preheat Air Temperature Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV35,'Mixed Air Temperature Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV36,'Mixed Air Low Limit Temperature Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV37,'Economizer Enable Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV41,'Humidifier Enable Setpoint','%RH'
+
+INFO - Created Successfully
+	100, AV42,'Return Air Humidity Setpoint','%RH'
+
+INFO - Created Successfully
+	100, AV43,'Space Humidity Setpoint','%RH'
+
+INFO - Created Successfully
+	100, AV44,'Humidity High Limit Setpoint','%RH'
+
+INFO - Created Successfully
+	100, AV45,'Dehumidification Setpoint','%RH'
+
+INFO - Created Successfully
+	100, AV46,'Unoccupied Dehumidification Setpoint','%RH'
+
+INFO - Created Successfully
+	100, AV51,'Minimum Outside Air CFM Setpoint','CFM'
+
+INFO - Created Successfully
+	100, AV52,'Maximum Outside Air CFM Setpoint (CO2)','CFM'
+
+INFO - Created Successfully
+	100, AV53,'Minimum Outside Air CFM Setpoint (CO2)','CFM'
+
+INFO - Created Successfully
+	100, AV54,'Demand Ventilation CO2 Setpoint','ppm'
+
+INFO - Created Successfully
+	100, AV61,'Occupied Space Temperature Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV62,'Active Space Heating Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV63,'Active Space Cooling Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV64,'Occupied Space Temperature Setpoint Deadband','°F'
+
+INFO - Created Successfully
+	100, AV71,'Unoccupied Heating Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV72,'Unoccupied Cooling Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV73,'Unoccupied Space Temperature Setpoint Deadband','°F'
+
+INFO - Created Successfully
+	100, AV77,'Average Space Temperature','°F'
+
+INFO - Created Successfully
+	100, AV78,'Lowest Space Temperature','°F'
+
+INFO - Created Successfully
+	100, AV79,'Highest Space Temperature','°F'
+
+INFO - Created Successfully
+	100, AV81,'Hot Water Runaround Pump Enable Setpoint','°F'
+
+INFO - Created Successfully
+	100, AV91,'Supply VFD Control Ramp','%'
+
+INFO - Created Successfully
+	100, AV92,'Return VFD Control Ramp','%'
+
+INFO - Created Successfully
+	100, AV93,'Damper Control Ramp','%'
+
+INFO - Created Successfully
+	100, AV94,'Valve Control Ramp','%'
+
+INFO - Created Successfully
+	100, AV95,'Fan Control Ramp','%'
+
+INFO - Created Successfully
+	100, AV96,'Humidifier Control Ramp','%'
+
+INFO - Created Successfully
+	100, BV1,'AHU Enable','BDC7'
+
+INFO - Created Successfully
+	100, BV2, 'AHU Fan Request', 'BDC5'
+
+INFO - Created Successfully
+	100, BV3, 'Afterhours Override', 'BDC5'
+
+INFO - Created Successfully
+	100, BV11, 'Hot Water Available', 'BDC5'
+
+INFO - Created Successfully
+	100, BV21, 'Mechanical Cooling Available', 'BDC5'
+
+INFO - Created Successfully
+	100, BV31, 'Economizer Mode Enable', 'BDC5'
+
+INFO - Created Successfully
+	100, BV32, 'CO2 Demand Ventilation Mode Enable', 'BDC5'
+
+INFO - Created Successfully
+	100, BV41, 'Humidifier Enable', 'BDC5'
+
+INFO - Created Successfully
+	100, BV42, 'Dehumidification Enable', 'BDC5'
+
+INFO - Created Successfully
+	100, BV51, 'Supply Fans Operational Status', 'BDC5'
+
+INFO - Created Successfully
+	100, BV52, 'Return Fans Operational Status', 'BDC5'
+
+INFO - Created Successfully
+	100, MIC'Controller Modes', 'MIC21'
+
+INFO - Created Successfully
+	100, MIC'Controller Status', 'MIC22'
+
+INFO - Created Successfully
+	100, MV1, 'AHU Mode', 'MIC21'
+
+INFO - Created Successfully
+	100, MV2, 'AHU Status', 'MIC22'
+

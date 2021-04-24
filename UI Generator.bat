@@ -1,0 +1,1 @@
+pyuic5 -x database_builder.ui -o database_builder.py
